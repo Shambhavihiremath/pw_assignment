@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          *{
+            
+            margin: 0;
+            padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+        }
+        body{
+            background-color: #000000;
+            height: 100vh;
+         overflow: hidden;
+        margin: 0;
+         padding: 0;
+        }
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.05)
+        }
+        h1{
+            text-align: center;
+        }
+        .main1{
+padding-bottom: 10px;
+padding-left: 10px;
+
+        }
+        .main2{
+padding-bottom: 10px;
+padding-left: 10px;
+
+        }
+        .main3{
+padding-bottom: 10px;
+padding-left: 10px;
+
+        }
+        .main4{
+padding-bottom: 10px;
+padding-left: 10px;
+
+        }
+        .main5{
+padding-bottom: 10px;
+padding-left: 10px;
+
+        }
+        .main6>button{
+         
+         width: 90px;
+         height: 40px;
+         background-color: black;
+         color: aliceblue;
+         margin-bottom: 10px;
+         margin-left: 150px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Signup</h1>
+        <form action="post">
+        <div class="main1">
+            <label >Name:</label>
+            <br>
+            <input size=50 type="text">
+            
+            
+        </div>
+        <div class="main2">
+            <label for="Car"> Batch:</label>
+            <br>
+            <select name="batch" id="batch" >
+                <option value="sigma">Sigma 1.0</option>
+                <option value="sigma">Sigma 2.0</option>
+            </select>
+
+        </div>
+        <div class="main3">
+            <label >Age:</label>
+            <br>
+            <input  type="number">
+
+            
+        </div>
+        <div class="main4">
+            <label>Email:</label>
+            <br>
+            <input size=50 type="email">
+        </div>
+        <div class="main5">
+            <label>Password:</label>
+            <br>
+            <input  size=50 type="password">
+        </div>
+        <div class="main6">
+           <button>Signup</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
